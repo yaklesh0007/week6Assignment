@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/softwaricalogo" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint="Enter Username"
+        android:id="@+id/edtusername"
+        android:textColorHint="#DC4740"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#DC4740"/>
+    <EditText
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:hint="Enter your password"
+        android:id="@+id/edtpassword"
+        android:textColor="#DC4740"
+        android:textColorHint="#DC4740"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnlogin"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#DC4740"
+        android:textSize="25sp"
+        android:background="#DCCEC0"
+        />
+</LinearLayout>
+</ScrollView>
